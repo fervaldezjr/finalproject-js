@@ -1,0 +1,28 @@
+{
+    "cursos": [
+        {
+            "titulo": "test numero uno",
+            "precio": 400,
+            "portada": "../images/makeup1.png",
+            "id": 1
+        },
+        {
+            "titulo": "test numero dos",
+            "precio": 30000,
+            "portada": "../images/makeup2.png",
+            "id": 2
+        },
+        {
+            "titulo": "test numero uno",
+            "precio": 700,
+            "portada": "../images/makeup3.png",
+            "id": 3
+        },
+        {
+            "titulo": "test numero uno",
+            "precio": 1400,
+            "portada": "../images/makeup2.png",
+            "id": 4
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Martina Vellani</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+
+<body>
+    <!-- Navegacion -->
+    <nav class="p-4 flex items-center justify-between">
+        <!-- Hamburguesa -->
+        <div class="font-serif md:hidden" id="menu">
+            <a href="#">Menu</a>
+        </div>
+
+        <!-- Logo -->
+        <div class="logo">
+            <a href="#" class="font-serif">Martina Vellani</a>
+        </div>
+
+        <div class="w-full absolute left-0 bottom-0 right-0 top-0 -translate-y-[100rem] bg-slate-600 transition duration-500 font-serif z-10"
+            id="navlist">
+            <!-- Navegacion -->
+            <ul class=" flex-col items-center justify-between my-48 text-4xl
+        md:flex md:-translate-y-[0rem]">
+
+                <!-- Close -->
+                <div class="absolute right-5 top-5 z-20 -translate-y-[100rem] transition duration-500 font-serif text-lg
+                md:hidden" id="close">
+                    <a href="#">Cerrar</a>
+                </div>
+
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                </li>
+                <li>
+                    <a href="#">Biografia</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Cart -->
+        <div class="carro font-serif">
+            <a class="flex" href="#">Cart
+                <div class="contador ml-1">0</div>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Contenido -->
+    <section id="root">
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>
