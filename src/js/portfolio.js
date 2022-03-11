@@ -1,5 +1,5 @@
-let cursosDisp = document.getElementById('root');
-let DATA_URL = '../../server/db.json';
+let cursosDisp = document.getElementById('portfolio');
+let DATA_URL = 'http://localhost:3000/cursos';
 
 async function getData() {
     const response = await fetch(DATA_URL);
@@ -8,7 +8,7 @@ async function getData() {
 };
 
 getData()
-.then(data => cursosDisp.innerHTML = data.cursos.map((curso) => `
-<img src=${curso.portada} />
+.then(data => cursosDisp.innerHTML = data.map((curso) => `
+    <img src=${curso.portada} />
 `).join(''))
 .catch(err => console.log('errors: ' + err.message));
