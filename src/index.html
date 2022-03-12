@@ -78,17 +78,33 @@
                     <line x1="21" y1="6" x2="3" y2="6" stroke-linecap="round"></line>
                     <path d="M17,10A5,5,0,0,1,7,10"></path>
                 </svg>
-                <div class="contador ml-1">0</div>
+                <div
+                    class="contador font-semibold text-sm font-sans ml-1 absolute top-2 right-1 bg-red-300 rounded-xl px-1">
+                    0
+                </div>
             </a>
         </div>
 
         <!-- Vista previa del carro -->
+        <div id="vista-previa"
+            class="absolute right-4 top-16 rounded-md border-2 border-gray-300 bg-white -translate-y-[100rem] transition duration-500">
+            Vista previa carrito
+        </div>
     </nav>
 
     <!-- Contenido -->
+    <!-- Portfolio -->
     <section id="portfolio" class="grid grid-cols-2 gap-3 container mx-auto
-        md:grid-cols-4
-    ">
+        md:grid-cols-4">
+    </section>
+    <!-- Shop -->
+    <section id="shop" class="grid grid-cols-2 gap-3 container mx-auto
+    md:grid-cols-4">
+    </section>
+
+    <!-- Preview product -->
+    <section id="previewShop">
+        hola
     </section>
 
     <!-- Footer -->
@@ -109,6 +125,7 @@
     <script src="js/biografia.js"></script>
     <script src="js/contacto.js"></script>
     <script src="js/cart.js"></script>
+    <script src="js/preview.js"></script>
 </body>
 
 </html>
